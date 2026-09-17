@@ -65,7 +65,7 @@
             // lblQuantidade
             // 
             lblQuantidade.AutoSize = true;
-            lblQuantidade.Location = new Point(26, 117);
+            lblQuantidade.Location = new Point(26, 112);
             lblQuantidade.Name = "lblQuantidade";
             lblQuantidade.Size = new Size(69, 15);
             lblQuantidade.TabIndex = 2;
@@ -74,7 +74,7 @@
             // lblIdadeAnimal
             // 
             lblIdadeAnimal.AutoSize = true;
-            lblIdadeAnimal.Location = new Point(26, 160);
+            lblIdadeAnimal.Location = new Point(26, 161);
             lblIdadeAnimal.Name = "lblIdadeAnimal";
             lblIdadeAnimal.Size = new Size(77, 15);
             lblIdadeAnimal.TabIndex = 3;
@@ -83,7 +83,7 @@
             // lblNome
             // 
             lblNome.AutoSize = true;
-            lblNome.Location = new Point(25, 205);
+            lblNome.Location = new Point(279, 20);
             lblNome.Name = "lblNome";
             lblNome.Size = new Size(40, 15);
             lblNome.TabIndex = 4;
@@ -106,7 +106,7 @@
             // 
             // txtQuantidade
             // 
-            txtQuantidade.Location = new Point(132, 114);
+            txtQuantidade.Location = new Point(132, 109);
             txtQuantidade.Name = "txtQuantidade";
             txtQuantidade.Size = new Size(100, 23);
             txtQuantidade.TabIndex = 8;
@@ -114,7 +114,7 @@
             // 
             // txtIdadeAnimal
             // 
-            txtIdadeAnimal.Location = new Point(132, 157);
+            txtIdadeAnimal.Location = new Point(132, 161);
             txtIdadeAnimal.Name = "txtIdadeAnimal";
             txtIdadeAnimal.Size = new Size(100, 23);
             txtIdadeAnimal.TabIndex = 9;
@@ -122,7 +122,7 @@
             // lblDesconto
             // 
             lblDesconto.AutoSize = true;
-            lblDesconto.Location = new Point(25, 235);
+            lblDesconto.Location = new Point(279, 60);
             lblDesconto.Name = "lblDesconto";
             lblDesconto.Size = new Size(102, 15);
             lblDesconto.TabIndex = 10;
@@ -131,16 +131,17 @@
             // lblValorFinal
             // 
             lblValorFinal.AutoSize = true;
-            lblValorFinal.Location = new Point(26, 267);
+            lblValorFinal.Location = new Point(279, 97);
             lblValorFinal.Name = "lblValorFinal";
             lblValorFinal.Size = new Size(61, 15);
             lblValorFinal.TabIndex = 11;
             lblValorFinal.Text = "Valor Final";
+            lblValorFinal.Click += lblValorFinal_Click;
             // 
             // lblStatus
             // 
             lblStatus.AutoSize = true;
-            lblStatus.Location = new Point(26, 332);
+            lblStatus.Location = new Point(279, 169);
             lblStatus.Name = "lblStatus";
             lblStatus.Size = new Size(39, 15);
             lblStatus.TabIndex = 12;
@@ -148,7 +149,7 @@
             // 
             // btnCalcular
             // 
-            btnCalcular.Location = new Point(26, 372);
+            btnCalcular.Location = new Point(120, 396);
             btnCalcular.Name = "btnCalcular";
             btnCalcular.Size = new Size(102, 27);
             btnCalcular.TabIndex = 13;
@@ -159,7 +160,7 @@
             // lblParcela
             // 
             lblParcela.AutoSize = true;
-            lblParcela.Location = new Point(26, 300);
+            lblParcela.Location = new Point(279, 136);
             lblParcela.Name = "lblParcela";
             lblParcela.Size = new Size(45, 15);
             lblParcela.TabIndex = 14;

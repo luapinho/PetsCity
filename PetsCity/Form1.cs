@@ -37,12 +37,12 @@ namespace PetsCity
                 lblDesconto.Text = $"R${desconto:N2}";
                 lblValorFinal.Text = $"R${valorFinal:N2}";
                 lblParcela.Text = $"3x de R${parcela:N2}";
-                
+
 
                 txtNomePet.Clear();
                 txtPrecoServico.Clear();
-                txtQuantidade.Clear ();
-                txtIdadeAnimal.Clear ();
+                txtQuantidade.Clear();
+                txtIdadeAnimal.Clear();
 
                 if (brindeAprovado)
                 {
@@ -54,15 +54,20 @@ namespace PetsCity
                 else
                 {
                     lblStatus.Text = "Compra padrão realizada com sucesso!";
-                    lblStatus.ForeColor= Color.Red;
+                    lblStatus.ForeColor = Color.Red;
                 }
             }
-            catch
+            catch (FormatException)
             {
                 MessageBox.Show("Preencha os campos numéricos corretamente!",
                     "Erro de digitação", MessageBoxButtons.OK,
                     MessageBoxIcon.Warning);
             }
+        }
+
+        private void lblValorFinal_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
