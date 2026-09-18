@@ -15,9 +15,9 @@ namespace PetsCity
         {
             double valorTotal = PrecoServico * Quantidade;
 
-            if (Quantidade >= 10)
+            if (Quantidade >= 4)
             {
-                return valorTotal * 010;
+                return valorTotal * 0.10;
             }
 
             return 0;
